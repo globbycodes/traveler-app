@@ -1,0 +1,18 @@
+[
+    {
+        "messageTemplate": "#Greeting #firstName, and welcome to #company! Room #roomNumber is now ready for you. Enjoy your stay, and let us know if you need anything",
+        "variableNames": ["#Greeting", "#firstName", "#company", "#roomNumber"]
+    },
+    {
+        "messageTemplate" : "Hello #firstName, hope all is well! Your room #roomNumber is ready for you! #company is welcoming you!",
+        "variableNames" : ["#firstName", "#roomNumber", "#company"]
+    },
+    {
+        "messageTemplate" : "#Greeting #firstName #lastName,  your checkout time is scheduled for tomorrow 11:00 AM.\n Please let us know if you have any questions!",
+        "variableNames" : ["#firstName", "#roomNumber", "#company", "#lastName", "#Greeting"]
+    },
+    {
+        "messageTemplate" : "Dear #firstName #lastName. Welcome to the #company, your room number is #roomNumber. \n Let us know if you have any questions",
+        "variableNames" : ["#firstName", "#roomNumber", "#company", "#lastName"]
+    }
+]

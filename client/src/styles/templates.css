@@ -1,0 +1,19 @@
+.form-control {
+    font-size: 2rem;
+    padding: 25px 15px;
+  }
+
+  .list-templates{
+      width: 80%;
+      margin: auto;
+      margin-top: 2%;
+  }
+
+  .itemTitle{
+    color: rgb(64, 64, 64);
+    text-decoration: none;
+  }
+  
+  .list-group-item:hover{
+    background-color: #7777;
+  }

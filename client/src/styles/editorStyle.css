@@ -1,0 +1,79 @@
+@import url('https://fonts.googleapis.com/css?family=Lexend+Deca&display=swap');
+
+.editor {
+  box-sizing: border-box;
+  border: 1px solid #ddd;
+  cursor: text;
+  padding: 16px;
+  border-radius: 2px;
+  margin-bottom: 2em;
+  background: #fefefe;
+}
+
+.editor :global(.public-DraftEditor-content) {
+  min-height: 140px;
+}
+
+.root {
+  width: 80%;
+  padding: 40px;
+  margin: auto;
+  font-size: 15pt;
+}
+
+.public-DraftEditor-content {
+  max-height: 400px;
+  min-height: 400px;
+  overflow: auto;
+  font-size: 25px;
+  font-family: 'Lexend Deca', sans-serif;
+}
+
+.template-editor-title {
+  text-align: center;
+  font-family: 'Lexend Deca', sans-serif;
+}
+
+.template-editor-description {
+  text-align: center;
+  font-family: 'Lexend Deca', sans-serif;
+  font-size: 15pt;
+  margin: 2%;
+}
+
+.save-template {
+  border: solid 2px rgb(124,124,124);
+  background: transparent;
+  padding: 10px 30px;
+  margin: 0 0.2rem;
+  border-radius: 1px;
+  font-size: 1rem;
+  text-transform: uppercase;
+  font-weight: 500;
+  margin-left: 0.7rem;
+  -webkit-transition-duration: 0.4s;
+  transition-duration: 0.4s;
+  cursor: pointer;
+  color: rgb(104,104,104);
+}
+
+.save-template:hover{
+  background: rgb(124,124,124);
+  color: white;
+}
+
+.button-box{
+  text-align: center;
+}
+
+.success-message{
+  font-family: 'Lexend Deca', sans-serif;
+  text-align: center;
+  margin-top: 10%;
+}
+
+@media (min-width: 1500px) {
+  .public-DraftEditor-content {
+    font-size: 30px;
+  }
+}
