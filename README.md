@@ -22,7 +22,9 @@
 
     1) ```npm install``` (Installs all dependencies for server side)
     2) ```npm run client-install``` (Installs all dependencies for client side)
-    3) ```npm run dev``` (Runs the server and client concurrently )
+    3) ```npm run dev``` (Runs the server and client concurrently. It will also create a new database in MongoDB called "travelerApp")
+
+### App will be running at [http://localhost:3000](http://localhost:3000/#/)
 
 <br>
 
